@@ -37,7 +37,7 @@ const HOme = () => {
   ));
   return (
     <div className="w-11/12 m-auto p-6">
-      <div className="w-full  md:flex w-11/12 justify-between mx-auto flex-wrap">
+      <div className=" md:flex w-11/12 justify-between mx-auto flex-wrap">
         <div className="md:text-2xl p-2 font-bold text-white bg-black font-sans w-fit ">
           <Link to="/"> XcitEducation</Link>
         </div>
