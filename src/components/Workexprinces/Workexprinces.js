@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 import SideNavbar from "../Shared/SideNavbar";
 
 const Workexprinces = () => {
-
-
   return (
     <div className="flex flex-row gap-36">
       <SideNavbar />
@@ -17,7 +15,7 @@ const Workexprinces = () => {
           stroke="currentColor"
           className="border rounded-full text-white w-10 h-10 bg-error cursor-pointer"
           onClick={(e) => {
-            window.history.back()
+            window.history.back();
           }}
         >
           <path
